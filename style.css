@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.progress-container {
+    width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.progress-bar {
+    width: 0;
+    height: 30px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    transition: width 1s ease;
+}
+
+.percentage {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    line-height: 30px;
+}
+
+.progress-image {
+    position: relative;
+    width: 150px;
+    top: -95px;
+    left: 0;
+    visibility: hidden;
+    display: block;
+    margin-left: auto;
+    margin-top: auto;
+    align-self:flex-end;
+    height: auto;
+
+}
